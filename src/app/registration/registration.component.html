@@ -1,0 +1,9 @@
+<md-card>
+	<md-card-title>Registration</md-card-title>
+	<md-card-content>
+		<dynamic-form 
+			[questions]="questions" 
+			(onSubmit)="onSubmitRegistrationForm($event)"
+		></dynamic-form>
+	</md-card-content>
+</md-card>

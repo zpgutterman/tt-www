@@ -1,0 +1,3 @@
+<div *ngIf="(session | async)?.user?.id">
+	Welcome {{ (session | async)?.user?.username }}
+</div>
